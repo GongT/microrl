@@ -1,0 +1,22 @@
+{
+	// cmake config file
+	"$schema": "vscode://schemas/CMakeLists",
+	"name": "helius_microrl",
+	"version": "0.0.0",
+	"type": "library",
+	"entry": "examples/example.c",
+	"include": ["include"],
+	"source": [
+		"src/*.c",
+		"src/*.h",
+		"include/*.h",
+	],
+	"dependency": {
+		"kendryte-standalone-sdk": "0.5.2",
+	},
+	"definitions": {
+		"DEFAULT_PROMPT": "> ",
+		"DEFAULT_PROMPT_LEN": 2
+	}
+}
+
