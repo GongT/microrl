@@ -1,7 +1,7 @@
 {
 	// cmake config file
 	"$schema": "vscode://schemas/CMakeLists",
-	"name": "helius_microrl",
+	"name": "gongt_microrl",
 	"version": "0.0.0",
 	"type": "library",
 	"entry": "examples/example.c",
